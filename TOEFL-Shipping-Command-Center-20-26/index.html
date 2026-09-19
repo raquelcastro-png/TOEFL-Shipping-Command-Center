@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Study dashboard for advanced C1 English: TOEFL preparation, shipping and logistics vocabulary, customs terminology and professional customer-service communication.">
+<meta name="keywords" content="TOEFL C1 preparation, advanced English grammar, shipping English, logistics vocabulary, customer service communication, shipment tracking, customs vocabulary">
+<meta name="author" content="TOEFL &amp; Shipping Command Center">
+<title>TOEFL &amp; Shipping Command Center | C1 English for Shipping and Customer Service</title>
+
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+
+<!-- Google Fonts (optional: delete these two lines to work fully offline) -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<!-- Bootstrap 4.4.1 (local) -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- Custom styles -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<a class="skip-link sr-only sr-only-focusable" href="#main">Skip to main content</a>
+
+<!-- =========================================================
+     NAVIGATION
+     ========================================================= -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top site-nav" aria-label="Main navigation">
+  <div class="container">
+
+    <a class="navbar-brand" href="#top">
+      <img src="img/logo-command-center.svg" width="30" height="30" alt="TOEFL and Shipping Command Center logo">
+      T&amp;S Command Center
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#grammar">Grammar</a></li>
+        <li class="nav-item"><a class="nav-link" href="#shipping">Shipping</a></li>
+        <li class="nav-item"><a class="nav-link" href="#practice">Practice</a></li>
+        <li class="nav-item"><a class="nav-link" href="#scenarios">Scenarios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#flashcards">Flashcards</a></li>
+        <li class="nav-item"><a class="nav-link" href="#roleplay">Roleplay</a></li>
+        <li class="nav-item ml-lg-3">
+          <a class="btn btn-primary nav-button" href="#grammar">Start training</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- =========================================================
+     HERO
+     ========================================================= -->
+<header class="hero-section" id="top">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-lg-7">
+        <p class="section-tag">C1 English &middot; Shipping &middot; Customer service</p>
+
+        <h1>TOEFL C1 &amp; Shipping Command Center</h1>
+
+        <p class="hero-text">Build advanced English skills for high-level testing and real-world customer-service communication.</p>
+
+        <p class="hero-description">Train grammar, master professional language, and practice the communication skills needed to handle shipping and logistics scenarios with confidence.</p>
+
+        <form class="hero-form" id="startForm" novalidate>
+          <div class="form-row">
+
+            <div class="form-group col-sm-6">
+              <label class="sr-only" for="studentEmail">Email address</label>
+              <input type="email" class="form-control form-control-lg" id="studentEmail" name="studentEmail" placeholder="Your email address" required>
+            </div>
+
+            <div class="form-group col-sm-6">
+              <label class="sr-only" for="studyGoal">Study goal</label>
+              <select class="form-control form-control-lg" id="studyGoal" name="studyGoal">
+                <option value="toefl">TOEFL C1 preparation</option>
+                <option value="shipping">Shipping &amp; logistics English</option>
+                <option value="service">Customer-service communication</option>
+              </select>
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Start training</button>
+          <p class="form-note" id="formNote">Your plan is built locally for this academic demo. No data is sent or stored.</p>
+        </form>
+
+        <p class="hero-alt-link"><a href="#shipping">Or explore the shipping toolkit first</a></p>
+      </div>
+
+      <!-- Study status panel -->
+      <div class="col-lg-5">
+        <div class="dashboard-card">
+
+          <div class="dashboard-header">
+            <span>Study status</span>
+            <span class="dashboard-state"><span class="status-dot" aria-hidden="true"></span>Active</span>
+          </div>
+
+          <p class="dashboard-title">C1 English</p>
+
+          <div class="progress-item">
+            <div class="d-flex justify-content-between">
+              <span>Grammar</span>
+              <span>87%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 87%;" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" aria-label="Grammar progress"></div>
+            </div>
+          </div>
+
+          <div class="progress-item">
+            <div class="d-flex justify-content-between">
+              <span>Reading</span>
+              <span>82%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 82%;" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" aria-label="Reading progress"></div>
+            </div>
+          </div>
+
+          <div class="progress-item">
+            <div class="d-flex justify-content-between">
+              <span>Vocabulary</span>
+              <span>91%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 91%;" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100" aria-label="Vocabulary progress"></div>
+            </div>
+          </div>
+
+          <p class="shipping-status">
+            <span>Shipping readiness</span>
+            <strong>84%</strong>
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- =========================================================
+       TRAINING MODULES
+       ========================================================= -->
+  <section class="section-light" id="practice">
+    <div class="container">
+
+      <div class="section-heading text-center">
+        <p class="section-tag">Training system</p>
+        <h2>Train for precision</h2>
+        <p>Three focused systems to strengthen advanced English and professional communication.</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-4 mb-4">
+          <div class="feature-card">
+            <h3>C1 Grammar Lab</h3>
+            <p>Master complex structures, advanced sentence patterns, inversion, conditionals, modal perfects and participle clauses.</p>
+            <a href="#grammar" class="feature-link">Practice grammar</a>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="feature-card">
+            <h3>Shipping &amp; Logistics</h3>
+            <p>Learn terminology and professional chunks used when tracking shipments, assisting customers, handling delays and resolving logistics issues.</p>
+            <a href="#shipping" class="feature-link">Open cheat sheet</a>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="feature-card">
+            <h3>Customer Service Roleplay</h3>
+            <p>Practice realistic customer interactions involving shipment status, delivery issues, customs and problem resolution.</p>
+            <a href="#roleplay" class="feature-link">Start roleplay</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SHIPPING TOOLKIT
+       ========================================================= -->
+  <section class="section-dark" id="shipping">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <p class="section-tag">Professional vocabulary</p>
+          <h2>Your shipping toolkit</h2>
+          <p>Build the language you need to communicate clearly, professionally and efficiently in logistics operations.</p>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="row">
+
+            <div class="col-md-6 mb-4">
+              <div class="tool-card">
+                <h3 class="tool-label">Tracking</h3>
+                <ul>
+                  <li>Tracking number</li>
+                  <li>Shipment status</li>
+                  <li>In transit</li>
+                  <li>Out for delivery</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+              <div class="tool-card">
+                <h3 class="tool-label">Customs</h3>
+                <ul>
+                  <li>Customs clearance</li>
+                  <li>Import duties</li>
+                  <li>Required documentation</li>
+                  <li>Customs delay</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-6 mb-4 mb-md-0">
+              <div class="tool-card">
+                <h3 class="tool-label">Delivery</h3>
+                <ul>
+                  <li>Estimated delivery</li>
+                  <li>Delivery attempt</li>
+                  <li>Recipient</li>
+                  <li>Delivery address</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="tool-card">
+                <h3 class="tool-label">Claims</h3>
+                <ul>
+                  <li>Damaged package</li>
+                  <li>Missing shipment</li>
+                  <li>Lost package</li>
+                  <li>Delivery issue</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       CORPORATE CHUNKS
+       ========================================================= -->
+  <section class="section-light" id="chunks">
+    <div class="container">
+
+      <div class="section-heading">
+        <p class="section-tag">Corporate communication</p>
+        <h2>Speak like a professional agent</h2>
+        <p>Replace isolated vocabulary with useful language chunks designed for real customer-service interactions.</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="chunk-card">
+            <h3>Acknowledge</h3>
+            <p>&ldquo;I understand your concern.&rdquo;</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="chunk-card">
+            <h3>Investigate</h3>
+            <p>&ldquo;Let me look into that for you.&rdquo;</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="chunk-card">
+            <h3>Clarify</h3>
+            <p>&ldquo;Let me clarify that for you.&rdquo;</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="chunk-card">
+            <h3>Assist</h3>
+            <p>&ldquo;I&rsquo;ll be happy to assist you.&rdquo;</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       C1 GRAMMAR LAB
+       ========================================================= -->
+  <section class="section-charcoal" id="grammar">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <p class="section-tag">TOEFL C1 preparation</p>
+          <h2>Build C1-level accuracy</h2>
+          <p>Advanced English is not only about knowing more words. It is about understanding structure, choosing precise language and communicating ideas with control.</p>
+          <a href="#flashcards" class="btn btn-primary">Open Grammar Lab</a>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="row">
+
+            <div class="col-md-6 mb-4">
+              <div class="grammar-card">
+                <h3>Advanced structures</h3>
+                <ul>
+                  <li>Inversion</li>
+                  <li>Mixed conditionals</li>
+                  <li>Modal perfects</li>
+                  <li>Participle clauses</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+              <div class="grammar-card">
+                <h3>Academic English</h3>
+                <ul>
+                  <li>Cause &amp; effect</li>
+                  <li>Contrast</li>
+                  <li>Concession</li>
+                  <li>Argumentation</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-6 mb-4 mb-md-0">
+              <div class="grammar-card">
+                <h3>Error control</h3>
+                <ul>
+                  <li>Subject-verb agreement</li>
+                  <li>Verb patterns</li>
+                  <li>Prepositions</li>
+                  <li>Sentence structure</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="grammar-card">
+                <h3>Reading precision</h3>
+                <ul>
+                  <li>Inference</li>
+                  <li>Reference</li>
+                  <li>Paraphrasing</li>
+                  <li>Context clues</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       STUDY FLOW (sequence: numbers are meaningful here)
+       ========================================================= -->
+  <section class="section-light" id="study-flow">
+    <div class="container">
+
+      <div class="section-heading text-center">
+        <p class="section-tag">Training method</p>
+        <h2>How your training works</h2>
+        <p>A simple cycle designed to turn knowledge into active communication.</p>
+      </div>
+
+      <ol class="row step-list">
+
+        <li class="col-md-4 mb-4 mb-md-0">
+          <div class="step-card">
+            <p class="step-number">Step 1</p>
+            <h3>Learn</h3>
+            <p>Review advanced grammar, vocabulary and professional communication chunks.</p>
+          </div>
+        </li>
+
+        <li class="col-md-4 mb-4 mb-md-0">
+          <div class="step-card">
+            <p class="step-number">Step 2</p>
+            <h3>Practice</h3>
+            <p>Complete TOEFL-style questions, flashcards and customer-service scenarios.</p>
+          </div>
+        </li>
+
+        <li class="col-md-4">
+          <div class="step-card">
+            <p class="step-number">Step 3</p>
+            <h3>Apply</h3>
+            <p>Use what you learned in realistic shipping and logistics conversations.</p>
+          </div>
+        </li>
+
+      </ol>
+
+      <p class="study-cycle text-center">
+        Learn <span aria-hidden="true">&rarr;</span>
+        Practice <span aria-hidden="true">&rarr;</span>
+        Respond <span aria-hidden="true">&rarr;</span>
+        Improve
+      </p>
+
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SCENARIO BAND (Bootstrap 4.4.1 carousel, manual only)
+       ========================================================= -->
+  <section class="scenario-band" id="scenarios">
+    <div class="container">
+
+      <div id="scenarioCarousel" class="carousel slide" data-interval="false">
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <p class="section-tag">Scenario 01</p>
+                <h2>Tracking a delayed shipment</h2>
+                <p>Explain where the parcel is, give a realistic estimate and confirm the next update without overpromising.</p>
+                <a href="#shipping" class="btn btn-outline-light">Review the vocabulary</a>
+              </div>
+              <div class="col-md-5 text-center">
+                <img src="img/scenario-tracking.svg" class="img-fluid scenario-image" alt="Shipment route showing origin, in-transit checkpoint and delivery">
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <p class="section-tag">Scenario 02</p>
+                <h2>Explaining a customs hold</h2>
+                <p>Describe the clearance process, name the missing documentation and tell the customer exactly what to send.</p>
+                <a href="#shipping" class="btn btn-outline-light">Review the vocabulary</a>
+              </div>
+              <div class="col-md-5 text-center">
+                <img src="img/scenario-customs.svg" class="img-fluid scenario-image" alt="Customs declaration document marked as cleared">
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <p class="section-tag">Scenario 03</p>
+                <h2>Opening a damage claim</h2>
+                <p>Acknowledge the problem, collect the evidence you need and set a clear expectation for the resolution.</p>
+                <a href="#roleplay" class="btn btn-outline-light">Practise the dialogue</a>
+              </div>
+              <div class="col-md-5 text-center">
+                <img src="img/scenario-claims.svg" class="img-fluid scenario-image" alt="Damaged parcel registered in a support claim">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#scenarioCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous scenario</span>
+        </a>
+
+        <a class="carousel-control-next" href="#scenarioCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next scenario</span>
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================
+       FLASHCARD SYSTEM
+       ========================================================= -->
+  <section class="section-dark" id="flashcards">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <p class="section-tag">Active recall</p>
+          <h2>Train. Recall. Respond.</h2>
+          <p>Turn difficult vocabulary into active language with flashcards designed to reinforce long-term retention.</p>
+          <a href="#roleplay" class="btn btn-outline-light">Continue training</a>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="flashcard" id="flashcard">
+
+            <div class="flashcard-top">
+              <span id="cardCategory">Shipping chunk</span>
+              <span id="cardCounter">01 / 06</span>
+            </div>
+
+            <div class="flashcard-content" aria-live="polite">
+              <p class="flashcard-label" id="cardLabel">Customer service</p>
+              <p class="flashcard-front" id="cardFront">&ldquo;Let me look into that for you.&rdquo;</p>
+              <p class="flashcard-back" id="cardBack">Use this chunk when you need to investigate a customer&rsquo;s request or shipment status.</p>
+            </div>
+
+            <div class="flashcard-actions">
+              <button class="btn btn-outline-light" type="button" id="reviewAgain">Review again</button>
+              <button class="btn btn-primary" type="button" id="knowThis">I know this</button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       CUSTOMER SERVICE ROLEPLAY
+       ========================================================= -->
+  <section class="section-light" id="roleplay">
+    <div class="container">
+
+      <div class="section-heading text-center">
+        <p class="section-tag">Real-world practice</p>
+        <h2>Step into the conversation</h2>
+        <p>Practice the language of real customer-service situations before encountering them in the workplace.</p>
+      </div>
+
+      <div class="roleplay-window">
+
+        <div class="roleplay-header">
+          <span>Shipping support</span>
+          <span>Scenario 01</span>
+        </div>
+
+        <div class="conversation" id="conversation" aria-live="polite">
+
+          <div class="message customer">
+            <p class="speaker">Customer</p>
+            <p>Hi, my package was supposed to arrive yesterday, but I still haven&rsquo;t received it.</p>
+          </div>
+
+          <div class="message agent">
+            <p class="speaker">Agent</p>
+            <p>I&rsquo;m sorry for the inconvenience. Let me check the current status of your shipment and see how I can assist you.</p>
+          </div>
+
+        </div>
+
+        <div class="response-area">
+          <p id="responsePrompt">Choose your next action:</p>
+
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <button class="response-button" type="button" data-reply="track">Track shipment</button>
+            </div>
+            <div class="col-md-6 mb-3">
+              <button class="response-button" type="button" data-reply="escalate">Escalate case</button>
+            </div>
+            <div class="col-md-6 mb-3 mb-md-0">
+              <button class="response-button" type="button" data-reply="solution">Offer a solution</button>
+            </div>
+            <div class="col-md-6">
+              <button class="response-button" type="button" data-reply="clarify">Ask for clarification</button>
+            </div>
+          </div>
+
+          <button class="btn btn-link roleplay-reset" type="button" id="resetRoleplay">Restart scenario</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       FINAL CALL TO ACTION
+       ========================================================= -->
+  <section class="final-cta">
+    <div class="container text-center">
+      <p class="section-tag">Your next level</p>
+      <h2>Master English. Handle customers. Move forward.</h2>
+      <p>Build the language, accuracy and confidence needed for your next academic and professional challenge.</p>
+      <a href="#grammar" class="btn btn-primary btn-lg">Enter Command Center</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-6 mb-4 mb-md-0">
+        <h2 class="footer-title">
+          <img src="img/logo-command-center.svg" width="28" height="28" alt="">
+          T&amp;S Command Center
+        </h2>
+        <p>Advanced English training for TOEFL C1, shipping communication and customer service.</p>
+      </div>
+
+      <div class="col-md-6">
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <ul class="list-unstyled">
+            <li><a href="#grammar">Grammar</a></li>
+            <li><a href="#shipping">Shipping</a></li>
+            <li><a href="#scenarios">Scenarios</a></li>
+            <li><a href="#flashcards">Flashcards</a></li>
+            <li><a href="#roleplay">Roleplay</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+
+    <p class="copyright">&copy; 2026 TOEFL &amp; Shipping Command Center. Educational project.</p>
+  </div>
+</footer>
+
+<!-- =========================================================
+     JAVASCRIPT
+     Bootstrap 4.4.1 requires jQuery and Popper.js, in this order
+     ========================================================= -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

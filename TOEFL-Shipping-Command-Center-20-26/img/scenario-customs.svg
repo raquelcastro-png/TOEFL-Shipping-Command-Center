@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Customs declaration document with a clearance stamp">
+  <rect width="320" height="180" rx="4" fill="#06121F"/>
+  <rect x="70" y="30" width="130" height="120" rx="3" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.18"/>
+  <rect x="86" y="48" width="80" height="6" fill="#4FD1C4"/>
+  <rect x="86" y="66" width="98" height="5" fill="#FFFFFF" fill-opacity="0.3"/>
+  <rect x="86" y="80" width="98" height="5" fill="#FFFFFF" fill-opacity="0.3"/>
+  <rect x="86" y="94" width="60" height="5" fill="#FFFFFF" fill-opacity="0.3"/>
+  <circle cx="205" cy="118" r="30" fill="none" stroke="#F0518E" stroke-width="3"/>
+  <text x="182" y="123" fill="#F0518E" font-family="Arial, sans-serif" font-size="13" font-weight="bold">CLEARED</text>
+</svg>

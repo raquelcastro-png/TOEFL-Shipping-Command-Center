@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Damaged parcel reported in a support ticket">
+  <rect width="320" height="180" rx="4" fill="#06121F"/>
+  <path d="M110 60 L160 40 L210 60 L210 125 L160 145 L110 125 Z" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.2"/>
+  <path d="M110 60 L160 80 L210 60" fill="none" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="2"/>
+  <line x1="160" y1="80" x2="160" y2="145" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="2"/>
+  <path d="M132 96 L152 104 L136 116 L156 126" fill="none" stroke="#F0518E" stroke-width="3"/>
+  <rect x="222" y="74" width="66" height="34" rx="3" fill="#4FD1C4" fill-opacity="0.15" stroke="#4FD1C4"/>
+  <text x="232" y="96" fill="#4FD1C4" font-family="Arial, sans-serif" font-size="12">CLAIM</text>
+</svg>
